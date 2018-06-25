@@ -446,6 +446,7 @@ p {
 /* Section D / Boxes */
 
 #section-d .box { 
+	background-image: url("../images/black.jpg");
 	padding:2em;
 	color: #fff;
 }
@@ -453,7 +454,13 @@ p {
 #section-d .box:first-child {
 	background: #8ab82e;
 }
+.imgsize {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 
+}
 /* Footer */
 
 #main-footer {
@@ -536,18 +543,12 @@ p {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.1rem;
-
-	/*width: 225px;
-	height: 20px;*/
 }
 
-move-me{
+move-me {
 	position: relative;
 }
 
-img{ 
-border-radius: 50;
- }
 
 
 
